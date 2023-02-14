@@ -149,6 +149,8 @@ class Design2 extends StatelessWidget {
                 children: [
                   buildCard('Miami Beach\nthe United States', '4.7','assets/images/miami_beach.jpg'),
                   buildCard('Island Hideaway\nMaldives', '4.5','assets/images/maldives_hideway.jpg'),
+                  buildCard('Best Beaches', '4.8','assets/images/best_beaches_in_the_world.jpg'),
+                  buildCard('Shivrajpur beach', '4.9','assets/images/shivrajpur_beach.jpg'),
                 ],
               ),
             ),
@@ -158,7 +160,7 @@ class Design2 extends StatelessWidget {
     );
   }
 
-  buildCard(String title, String rating, String imgpath) {
+  buildCard(String title, String rating, String imgpath)  {
     return Padding(
       padding: EdgeInsets.all(10.0),
       child: InkWell(
